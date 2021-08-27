@@ -10,22 +10,23 @@
  */
 int main(void)
 {
-	int n;
+	int i;
+	char l;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	i = 48;
+	while  (i < 58)
 	{
-		printf("%i is positive\n", n);
+		putchar(i);
+		i++;
 	}
-	else if (n == 0)
+
+	l = 'a';
+	while (l <= 'f')
 	{
-		printf("%i is zero\n", n);
+		putchar(l);
+		l++;
 	}
-	else if (n < 0)
-	{
-		printf("%i is negative\n", n);
-	}
+	putchar('\n');
 
 	return (0);
 }
