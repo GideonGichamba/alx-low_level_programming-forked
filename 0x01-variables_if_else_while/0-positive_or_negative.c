@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <string.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -11,12 +12,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if(n<0){
-        printf("%i is negative");
+        printf("%i is negative \n",n);
     }else if(n==0){
-        printf("%i is zero");
+        printf("%i is zero \n",n);
     }
     else if(n>0){
-        printf("%i is positive");
+        printf("%i is positive \n",n);
     }
 	return (0);
 }
