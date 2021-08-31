@@ -1,15 +1,12 @@
 #include "main.h"
 /**
- * main entry point
- * 
- * Description:Prints Holberton with _putchar
- * 
- * retrun 0 for success
- */
+*main - prints Holberton
+*Return: 0
+*/
 
 int main(void)
 {
-   int i=0;
+   int i = 0;
    char c;
    char s[] = "Holberton\n";
 
