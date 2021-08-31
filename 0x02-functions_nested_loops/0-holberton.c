@@ -6,6 +6,6 @@
  * retrun 0 for success
  */
 int main(void){
-    printf('Holberton\n');
+    printf("Holberton\n");
     return(0);
 }
