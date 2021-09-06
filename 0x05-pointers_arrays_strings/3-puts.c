@@ -1,3 +1,4 @@
+#include<stdio.h>
 /**
  * _puts - print a string on the and nextlint
  * @str: string parameter
@@ -5,5 +6,5 @@
  */
 void _puts(char *str)
 {
-puts(*str);
+puts(str);
 }
