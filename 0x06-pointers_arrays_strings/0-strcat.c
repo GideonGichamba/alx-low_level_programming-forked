@@ -1,11 +1,19 @@
 /**
- * _strcat - fuction to concatinate strings
+ * _strcat - append src to dest
  * @dest: frist string
  * @src: second string
  * Return: string
  */
 char *_strcat(char *dest, char *src)
 {
-char *conc = *dest + *src;
-return (*conc);
+int i, j;
+i = j =  0;
+while (*(dest + i))
+i++;
+while ((*(dest + i) = *(src + j)))
+{
+i++;
+j++;
+}
+return (dest);
 }
