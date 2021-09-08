@@ -1,5 +1,5 @@
 /**
- * _strcat - append src to dest
+ * _strcat - append src to dest with function
  * @dest: frist string
  * @src: second string
  * Return: string
