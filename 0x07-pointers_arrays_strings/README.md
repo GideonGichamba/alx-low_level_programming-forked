@@ -1,1 +1,1 @@
-# This is more pointer 
+ More pointers arays and functions
