@@ -1,5 +1,5 @@
 /**
- * _sqrt_recursion - calculate the square root of n;
+ * sqrt_check - calculate the square root of n;
  * @g:number to check if it is square root
  * @c:square to calculate its square root
  * Return: square root of g
@@ -22,5 +22,7 @@ int _sqrt_recursion(int n)
 {
 if (n == 0)
 return (0);
+if (n < 0)
+return (-1);
 return (sqrt_check(1, n));
 }
