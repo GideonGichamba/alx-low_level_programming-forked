@@ -4,3 +4,8 @@ Search algorithms work to retrieve information stored within some data structure
 # What is a linear search
 - a linear search or sequential search is a method for finding an element within a list
 - sequentially checks each element of the list until a match is found or the whole list has been searched
+
+# Binary search
+-  binary search, also known as half-interval search,[1] logarithmic search,[2] or binary chop,
+- is a search algorithm that finds the position of a target value within a sorted array
+- Binary search compares the target value to the middle element of the arra
